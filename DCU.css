@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main
+{
+    background-color: #000;
+    padding: 3px;
+    width: 45%;
+    margin: auto;
+    margin-top: 20px;
+}
+.category
+{
+    background-color: white;
+    margin: -10px -15px 20px ;
+    padding: 0px 5px;
+    width: fit-content;
+}
+.properties
+{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.flex
+{
+    display: flex;
+}
+.content
+{
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+}
+.xs-border
+{
+    border: 0.2 px black solid;
+    border-radius: 2px;
+    background-color: black;
+    padding: 1px;
+    width: 60px;
+    height: 0.1px;   
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.s-border
+{
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: black;
+    padding: 1px;
+    width: 60px;
+    height: 2px;   
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.m-border
+{
+    border: 4px black solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 0px; 
+    width: 60px;
+    height: 2px;   
+    margin-left: 5px;
+}
+.l-border
+{
+    border: 4px black solid;
+    border-radius: 8px;
+    background-color: black;
+    padding: 1px; 
+    width: 60px;
+    height: 8px;   
+    margin-left: 5px;
+}
+.menu
+{
+    margin: 10px ;
+    padding: 1px 30px 15px 30px;
+    border: 1px solid black;
+    
+}
+.option
+{
+    margin-bottom: 5px;
+    width: 100px;
+    height: 20px;
+}
+.btn
+{
+    margin: 2px 10px 2px 10px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 2px 2px #888888;
+    width: 80px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
