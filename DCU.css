@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
-.main
+.container
 {
     background-color: #000;
     padding: 3px;
@@ -96,4 +96,58 @@
     width: 80px;
     border: 1px solid transparent;
     border-radius: 5px;
+}
+.txtbox-l
+{
+    margin: auto;
+    width: 60%;
+}
+.menu .flex
+{
+    margin: 5px 0px;
+}
+label 
+{
+    width: 30%; 
+}
+.menu .row-options
+{
+    margin: 15px 0px;
+}
+.row-options input
+{
+    width: 15%;
+    
+}
+.row-options p
+{
+    margin: 0px 5px;
+}
+.row-options .column-1
+{
+    width: 15%;
+}
+.row-options .column-2
+{
+    margin-left: 40px;
+    width: 12%;
+}
+.specs
+{
+    width: 14%;
+}
+.row-options .menu
+{
+    margin: 0px 0px;
+    width: 50%;
+    height: 5px;
+}
+.fit
+{
+    width: 120px;
+    height: 80px;
+}
+.fit label
+{
+    margin: 0px 20px 10px 2px;
 }

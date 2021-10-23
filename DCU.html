@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="main">
+    <div class="container">
         <p class="properties">Text Properties</p>
         <div class="flex content" style="margin-top: 15px;">   
             <div class="menu">
@@ -162,5 +162,89 @@
             <input type="button" value="Help" title="Help" class="btn">
         </div>
     </div>
+    <div class="container" >
+        <p class="properties" style="margin-bottom: 15px;">PIF Editor</p>
+        <div class="content">
+            <div class="menu">
+                <div class="category">
+                    <p>Memory</p>
+                </div>
+                <div class="row-options flex">
+                    <p class="specs">REAL ></p>
+                    <p class="column-1">Required:</p><input type="text">
+                    <p>KB</p>
+                    <p class="column-2">Desired:</p><input type="text">
+                    <p>KB</p>
+                </div>
+                <div class="row-options flex">
+                    <p class="specs">EMS ></p>
+                    <p class="column-1">Required:</p><input type="text">
+                    <p>KB</p>
+                    <p class="column-2">Limit:</p><input type="text">
+                    <p>KB</p>
+                </div>
+                <div class="row-options flex">
+                    <p class="specs">XMS ></p>
+                    <p class="column-1">Required:</p><input type="text">
+                    <p>KB</p>
+                    <p class="column-2">Limit:</p><input type="text">
+                    <p>KB</p>
+                </div>
+                <div class="row-options flex">
+                    <p class="specs">VIDEO ></p>
+                    <p class="column-1">Type:</p>
+                    <div class="menu ">
+                        <input type="radio" name="Text" id="">
+                        <label for="Text">Text</label>
+                        <input type="radio" name="Low Graphics" id="">
+                        <label for="Low Graphics">Low </label>
+                        <input type="radio" name="High Graphics" id="">
+                        <label for="High Graphics">High </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="menu">
+                <div class="category">
+                    <p>Application</p>
+                </div>
+                <div class="flex">
+                    <label for="program filename">Program filename:</label>
+                    <input type="text" name="program filename" class="txtbox-l">
+                </div>
+                <div class="flex">
+                    <label for="Window Title">Window Title:</label>
+                    <input type="text" name="Window Title" class="txtbox-l" >
+                </div>
+                <div class="flex">
+                    <label for="Optional Parameters">Optional Parameters:</label>
+                    <input type="text" name="Optional Parameters" class="txtbox-l">
+                </div>
+                <div class="flex">
+                    <label for="Start-up Directory">Start-up Directory:</label>
+                    <input type="text" name="Start-up Directory" class="txtbox-l">
+                </div>
+            </div>
+        </div>
+        <div class="content flex">
+            <div class="menu fit">
+                <div class="category">Display Usage</div>
+                <input type="radio" name="Full screen" id=""><label for="Full screen">Full screen</label>
+                <input type="radio" name="Windowed" id=""><label for="Windowed">Windowed</label>
+            </div>
+            <div class="menu fit">
+                <div class="category">Executions</div>
+                <input type="radio" name="Background" id=""><label for="Background">Background</label>
+                <input type="radio" name="Exclusive" id=""><label for="Exclusive">Exclusive</label>
+            </div>
+            <div class="menu fit">
+                <div class="category">Window</div>
+                <input type="checkbox" name="close" id=""><label for="close">Close on Exit</label>
+            </div>
+
+        </div>
+    </div>
+    
 </body>
 </html>
