@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container
+{
+    background-color: #000;
+    padding: 3px;
+    width: 45%;
+    margin: auto;
+    margin-top: 20px;
+}
+.category
+{
+    background-color: white;
+    margin: -10px -15px 20px ;
+    padding: 0px 5px;
+    width: fit-content;
+}
+.properties
+{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.flex
+{
+    display: flex;
+}
+.content
+{
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+}
+.xs-border
+{
+    border: 0.2 px black solid;
+    border-radius: 2px;
+    background-color: black;
+    padding: 1px;
+    width: 60px;
+    height: 0.1px;   
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.s-border
+{
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: black;
+    padding: 1px;
+    width: 60px;
+    height: 2px;   
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.m-border
+{
+    border: 4px black solid;
+    border-radius: 5px;
+    background-color: black;
+    padding: 0px; 
+    width: 60px;
+    height: 2px;   
+    margin-left: 5px;
+}
+.l-border
+{
+    border: 4px black solid;
+    border-radius: 8px;
+    background-color: black;
+    padding: 1px; 
+    width: 60px;
+    height: 8px;   
+    margin-left: 5px;
+}
+.menu
+{
+    margin: 10px ;
+    padding: 1px 30px 15px 30px;
+    border: 1px solid black;
+    
+}
+.option
+{
+    margin-bottom: 5px;
+    width: 100px;
+    height: 20px;
+}
+.btn
+{
+    margin: 2px 10px 2px 10px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 2px 2px #888888;
+    width: 80px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.txtbox-l
+{
+    margin: auto;
+    width: 60%;
+}
+.menu .flex
+{
+    margin: 5px 0px;
+}
+label 
+{
+    width: 30%; 
+}
+.menu .row-options
+{
+    margin: 15px 0px;
+}
+.row-options input
+{
+    width: 15%;
+    
+}
+.row-options p
+{
+    margin: 0px 5px;
+}
+.row-options .column-1
+{
+    width: 15%;
+}
+.row-options .column-2
+{
+    margin-left: 40px;
+    width: 12%;
+}
+.specs
+{
+    width: 14%;
+}
+.row-options .menu
+{
+    margin: 0px 0px;
+    width: 50%;
+    height: 5px;
+}
+.fit
+{
+    width: 120px;
+    height: 80px;
+}
+.fit label
+{
+    margin: 0px 20px 10px 2px;
+}
